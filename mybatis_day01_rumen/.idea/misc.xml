@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="D:/瓜娃相关资料/web/框架/mybatis_day03/代码/day03_eesy_01datasourceAndTx/pom.xml" />
+        <option value="D:/瓜娃相关资料/web/框架/mybatis_day03/代码/day03_eesy_02dynamicSQL/pom.xml" />
+        <option value="D:/瓜娃相关资料/web/框架/mybatis_day03/代码/day03_eesy_03one2many/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_day01rumen/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

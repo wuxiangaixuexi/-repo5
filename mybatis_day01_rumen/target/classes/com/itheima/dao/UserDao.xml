@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--想去映射谁的-->
+<mapper namespace="com.itheima.dao.UserDao">
+    <select id="findAll" resultType="com.itheima.domain.User">
+      SELECT * FROM USER
+  </select>
+    <select id="findById" resultType="com.itheima.domain.User" parameterType="int">
+        SELECT *from user where id = #{id}
+
+    </select>
+    <!--相当于sql？-->
+    <insert id="saveUser" parameterType="com.itheima.domain.User">
+        INSERT INTO user(username,birthday,sex,address)VALUES (#{username},#{birthday},#{sex},#{address})
+    </insert>
+    <!--ognl表达式，#{对象.对象}由于上面parametertype属性指定实体类-->
+    <!--里面查询id还没有去操作-->
+    <update id="updateUser" parameterType="com.itheima.domain.User">
+        UPDATE user SET username=#{username},birthday=#{birthday},sex=#{sex},
+        address=#{address}WHERE id=#{id}
+    </update>
+    <delete id="deleteUser" parameterType="java.lang.Integer">
+        DELETE FROM user WHERE id =#{id}
+    </delete>
+    <select id="findByName" resultType="com.itheima.domain.User" parameterType="String">
+        SELECT *FROM USER WHERE username LIKE #{username}
+    </select>
+    <!--select * from user where username like '%${value}%-->
+    <select id="findTotal" resultType="int">
+     select count(*) from user;
+    </select>
+    <select id="findByVo" resultType="com.itheima.domain.QueryVo" parameterType="com.itheima.domain.QueryVo">
+        SELECT * FROM user WHERE username like #{user.username}
+    </select>
+
+
+
+
+
+
+
+
+
+
+
+
+</mapper>

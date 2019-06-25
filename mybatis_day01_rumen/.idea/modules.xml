@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://D:/瓜娃相关资料/web/框架/mybatis_day03/代码/day03_eesy_01datasourceAndTx/day03_eesy_01datasourceAndTx.iml" filepath="D:/瓜娃相关资料/web/框架/mybatis_day03/代码/day03_eesy_01datasourceAndTx/day03_eesy_01datasourceAndTx.iml" />
+      <module fileurl="file://D:/瓜娃相关资料/web/框架/mybatis_day03/代码/day03_eesy_02dynamicSQL/day03_eesy_02dynamicSQL.iml" filepath="D:/瓜娃相关资料/web/框架/mybatis_day03/代码/day03_eesy_02dynamicSQL/day03_eesy_02dynamicSQL.iml" />
+      <module fileurl="file://D:/瓜娃相关资料/web/框架/mybatis_day03/代码/day03_eesy_03one2many/day03_eesy_03one2many.iml" filepath="D:/瓜娃相关资料/web/框架/mybatis_day03/代码/day03_eesy_03one2many/day03_eesy_03one2many.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis_day01_rumen.iml" filepath="$PROJECT_DIR$/mybatis_day01_rumen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_day01rumen/spring_day01rumen.iml" filepath="$PROJECT_DIR$/spring_day01rumen/spring_day01rumen.iml" />
+    </modules>
+  </component>
+</project>
