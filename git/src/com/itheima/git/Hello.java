@@ -16,5 +16,6 @@ public class Hello {
     public void test(){
         int i = 0;
         i++;
+        System.out.println(i);
     }
 }
